@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/im1"
+    android:layout_height="match_parent"
+    tools:context=".Select_Product">
+
+
+    <androidx.cardview.widget.CardView
+
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:background="@drawable/editstyle"
+        android:layout_marginTop="-60dp"
+        android:layout_width="330dp"
+        android:paddingBottom="30dp"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="8dp">
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:text="Choose Product"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:layout_marginBottom="30dp"
+                android:textSize="15dp"
+                android:layout_height="20dp">
+
+            </TextView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_marginTop="7dp"
+                    android:text="Product Name:"
+                    android:textSize="12dp"
+                    android:layout_height="30dp">
+
+                </TextView>
+                <Spinner
+                    android:id="@+id/spinner3"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/newstyle"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_marginTop="7dp"
+                    android:text="Quantity:"
+                    android:textSize="12dp"
+                    android:layout_height="30dp">
+
+                </TextView>
+                <Spinner
+                    android:id="@+id/spinner2"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/newstyle"
+                    />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:paddingTop="30dp"
+                android:paddingBottom="10dp">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="120dp"
+                    android:backgroundTint="@color/blue"
+                    android:text="Purchase"
+                    android:id="@+id/searchbtn"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="40dp">
+
+                </androidx.appcompat.widget.AppCompatButton>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

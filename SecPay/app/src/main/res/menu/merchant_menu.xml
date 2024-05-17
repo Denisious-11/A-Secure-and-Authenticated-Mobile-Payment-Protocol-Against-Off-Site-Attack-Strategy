@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+
+
+    <item android:id="@+id/viewp"
+        android:icon="@drawable/add1"
+        android:title="View Product Request"/>
+
+
+    <item android:id="@+id/scanqr"
+        android:icon="@drawable/view2"
+        android:title="Scan QR Code"/>
+
+    <item android:id="@+id/pstatus"
+        android:icon="@drawable/feedback"
+        android:title="Payment Status"/>
+
+
+    <item android:id="@+id/logout"
+        android:icon="@drawable/logout"
+        android:title="Log out"/>
+</menu>
